@@ -41,15 +41,9 @@ namespace RiotSharp.Endpoints.MatchEndpoint.Enums.Converters
                 case 9:
                     return Season.Season2017;
                 case 10:
-<<<<<<< HEAD
-                    return Season.PreSeason2017;
-                case 11:
-                    return Season.Season2018;
-=======
                     return Season.PreSeason2018;
                 case 11:
                     return Season.Season2018;    
->>>>>>> refs/remotes/BenFradet/develop
                 default:
                     return null;
             }
